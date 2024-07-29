@@ -1,0 +1,33 @@
+/* estilos.css */
+
+/* Estilos generales para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #443535;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para la tarjeta de presentación */
+.tarjeta {
+    background-color: #d6e2e2;
+    border: 2px solid #da0d0d;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(133, 82, 82, 0.1);
+    text-align: center;
+}
+
+/* Estilo para el título de la tarjeta */
+.tarjeta h1 {
+    margin: 0 0 10px 0;
+    color: #312fb8;
+}
+
+/* Estilo para los párrafos dentro de la tarjeta */
+.tarjeta p {
+    margin: 5px 0;
+    color: #161515;
+}

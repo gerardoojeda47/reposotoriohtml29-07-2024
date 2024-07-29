@@ -1,0 +1,81 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #dd0b0bc4;
+    color: #100f0f;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Estilos para el contenedor principal */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilos para el contenedor del producto */
+.producto {
+    display: flex;
+    background-color: #0e58e0ce;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la imagen del producto */
+.producto img {
+    max-width: 300px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Estilos para los detalles del producto */
+.detalles {
+    flex-grow: 1;
+}
+
+/* Estilos para el nombre del producto */
+.detalles h2 {
+    font-size: 2em;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+/* Estilos para el precio del producto */
+.precio {
+    font-size: 1.5em;
+    color: #8403ee;
+    margin: 0 0 10px;
+}
+
+/* Estilos para la descripción del producto */
+.descripcion {
+    font-size: 1em;
+    color: #3aeaea;
+    line-height: 1.6;
+    margin: 0 0 20px;
+}
+
+/* Estilos para el botón de compra */
+.comprar {
+    background-color: #e1165a;
+    color: #020202;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.comprar:hover {
+    background-color: #d81b60;
+}

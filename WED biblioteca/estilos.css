@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #201f1f;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Encabezados */
+h1 {
+    color: #f1740e;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #2980b9;
+    margin-top: 30px;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Elementos destacados */
+.destacado {
+    background-color: #3ce789;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 24px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+}
+
+/* Animación sutil para los elementos destacados */
+.destacado {
+    transition: background-color 0.3s ease;
+}
+
+.destacado:hover {
+    background-color: #c0392b;
+}

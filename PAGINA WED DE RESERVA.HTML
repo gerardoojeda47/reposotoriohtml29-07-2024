@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de Registro y Reserva</title>
+</head>
+
+<body>
+    <h1>Formulario de Registro de Usuarios</h1>
+    <form action="#" method="post">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required><br><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required><br><br>
+
+        <label for="documento">Tipo de Documento:</label>
+        <select id="documento" name="documento">
+            <option value="dni">DNI</option>
+            <option value="pasaporte">Pasaporte</option>
+            <option value="cedula">Cédula</option>
+        </select><br><br>
+
+        <label for="numero">Número de Documento:</label>
+        <input type="text" id="numero" name="numero" required><br><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="celular">Número de Celular:</label>
+        <input type="tel" id="celular" name="celular" required><br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required><br><br>
+
+        <label>Género:</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="femenino">Femenino</label>
+        <input type="radio" id="otro" name="genero" value="otro">
+        <label for="otro">Otro</label><br><br>
+
+        <label>Intereses:</label><br>
+        <input type="checkbox" id="deportes" name="intereses" value="deportes">
+        <label for="deportes">Deportes</label><br>
+        <input type="checkbox" id="musica" name="intereses" value="musica">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" id="lectura" name="intereses" value="lectura">
+        <label for="lectura">Lectura</label><br><br>
+
+        <input type="submit" value="Enviar Registro">
+    </form>
+
+    <h1>Formulario de Reserva de Restaurante</h1>
+    <form action="#" method="post">
+        <label for="nombre_reserva">Nombre:</label>
+        <input type="text" id="nombre_reserva" name="nombre_reserva" required><br><br>
+
+        <label for="email_reserva">Email:</label>
+        <input type="email" id="email_reserva" name="email_reserva" required><br><br>
+
+        <label for="fecha_reserva">Fecha de Reserva:</label>
+        <input type="date" id="fecha_reserva" name="fecha_reserva" required><br><br>
+
+        <label for="hora_reserva">Hora de Reserva:</label>
+        <input type="time" id="hora_reserva" name="hora_reserva" required><br><br>
+
+        <label for="num_personas">Número de Personas:</label>
+        <input type="number" id="num_personas" name="num_personas" min="1" max="20" required><br><br>
+
+        <label for="contrasena">Contraseña para la Reserva:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+
+        <input type="hidden" id="id_reserva" name="id_reserva" value="RES123">
+
+        <input type="submit" value="Hacer Reserva">
+    </form>
+</body>
+
+</html>
